@@ -25,6 +25,7 @@ body{
 h1{
     color: #F9FAF8;
     font-family: roboto;
+    
 }
 h2{
     color: #E5E7EB;
@@ -34,7 +35,7 @@ h2{
 h3{
     color: #F9FAF8;
     font-family: roboto;
-    font-size: 48px;
+    font-size: 150px;
     font-weight: bold;
     font-size: x-large;
 }
@@ -44,7 +45,7 @@ button{
     width: 80px;
     height: 30px;
     color: white;
-    background-color: rgb(68, 113, 235);
+    background-color: #3882f6;
     border: none;
     font-weight: bold;
 }
@@ -58,7 +59,7 @@ button{
 .div2{
     
     width: 1000px;
-    height: 500px;
+    height: 400px;
     margin-left: 380px;
     margin-top: 0%;
 }
@@ -66,7 +67,7 @@ button{
     
     border-width: 5px;
     border-radius: 15px;
-    border: 2px solid blue;
+    border: 2px solid #3882f6;
     margin-left: 70px;
 }
 .div2 p{
@@ -75,9 +76,23 @@ button{
 }
 h5{
     text-align: center;
-    font-size: larger;
-}
+    font-size: 36px;
 
+}
+.div3{
+    background-color: #E5E7EB;
+    width: 1650px;
+    height: 300px;
+    margin-left: 130px;
+    margin-top: 0%;
+}
+.div3 p{
+    text-align:center;
+    font-size:36px;
+    font-weight:sbold;
+    color: #1F2937;
+    margin-top: 50px;
+}
 
 
 
