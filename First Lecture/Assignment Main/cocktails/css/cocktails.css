@@ -137,7 +137,7 @@ h6{
     margin-left: 150px;
     border-width: 2px;
     border-radius: 6px;
-    color: #E5E7EB;
+    color:#F9FAF8;
     background-color: #3882f6;
     border-color:#F9FAF8;
     border-style: solid;
@@ -147,12 +147,12 @@ h6{
 .site-footer {
     background-color: #1F2937;
     width: 1550px;
-    height: 50px;
+    height: 30px;
     margin-left: 100px;
   }
 .site-footer p{
     text-shadow: #3882f6;
     text-align: center;
     color: #E5E7EB;
-    margin-top: 20px;
+    margin-top: 50px;
 }
