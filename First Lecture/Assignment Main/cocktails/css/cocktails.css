@@ -13,7 +13,6 @@ body{
     outline:0;
     vertical-align: baseline; 
 }
-
 .div1{
     background-color: #1F2937;
     width: 1550px;
@@ -39,8 +38,6 @@ h3{
     font-weight: bold;
     font-size: x-large;
 }
-
-
 .div1 button{
     border-radius: 5px;
     width: 100px;
@@ -112,9 +109,7 @@ h4{
     height: 100px;
     margin-left: 400px;
     margin-top: 30px;
-
 }
-
 h6{
     margin-top: 15px;
     margin-bottom: 1px;
@@ -143,7 +138,6 @@ h6{
     border-style: solid;
     cursor: pointer;
 }
-
 .site-footer {
     background-color: #1F2937;
     width: 1550px;
