@@ -16,7 +16,6 @@ function computer_play(){
         case 1:
             return "paper"
           break;
-
         case 2:
             return "scissors"
             break;
