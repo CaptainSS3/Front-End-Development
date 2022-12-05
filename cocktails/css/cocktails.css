@@ -143,13 +143,13 @@ h4{
     display: flex;
     width: 800px;
     margin-left: 550px;
-    height: 100px;
+    height: 120px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 15px;
 }
 h6{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 0px;
     margin-left: 100px;
     width: 300px;
@@ -177,7 +177,7 @@ h6{
 }
 .buttondiv{
     padding-left: 150px;
-    padding-top: 35px;
+    padding-top: 45px;
 }
 .site-footer {
     background-color: #1F2937;
