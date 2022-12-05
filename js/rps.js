@@ -26,9 +26,9 @@ function computer_play(){
 }
 function player_selection(){
     let hand = prompt( `Round ${round} , What would you like to play ?`);
-    result = hand.toLowerCase().trim();
-    result2 = result.replace(" ", "");
-    return result2;
+    preresult = hand.toLowerCase().trim();
+    result = preresult.replace(" ", "");
+    return result;
 }
 function play_round(){
     let pc = computer_play();
