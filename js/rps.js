@@ -1,5 +1,8 @@
 /* 
 Rock paper scissors 
+Game takes place in the future!, where AI has become a huge part of our lives
+a world where people would marry robots, and humanity is really worried about AI taking over the world!
+this game would indicate how smart AI is getting and if they will be able to!
 */
 let round = 0;
 let player_points = 0;
@@ -19,19 +22,20 @@ function computer_play(){
             break;
         default:
             console.log("broken :(");
-
       } 
 }
 function player_selection(){
-    
     let hand = prompt( `Round ${round} , What would you like to play ?`);
     result = hand.toLowerCase().trim();
-    return result;
-    
+    result2 = result.replace(" ", "");
+    return result2;
 }
 function play_round(){
-    let hand_pc = computer_play();
-    let hand_player = player_selection();
+    let pc = computer_play();
+    let player = player_selection();
+    check_who_won(pc, player);
+}
+function check_who_won(hand_pc,hand_player){
     if(hand_pc== "rock" && hand_player=="rock"){
         console.log("Computer has player rock you played rock, Its a TIE!");
     }
@@ -76,7 +80,7 @@ function game(){
     }
     console.log(`The computer has ${pc_points} points, and you have ${player_points} points`)
     if(pc_points < player_points){
-        console.log("Congradulations!, you have won");
+        console.log("Congradulations!, you have won. SKYNET has no chance now!");
     }
     if(pc_points > player_points){
         console.log("Computer beat you, domestic abuse has accured, fbm");
