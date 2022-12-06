@@ -23,12 +23,13 @@ body{
     position: fixed;
     width: 100%;
     top: 0%;
+    border-radius: 1px;
 }
 h1{
     color: #E5E7EB;
     font-weight: bold;
     font-size: 36px;
-    padding-left: 250px;
+    padding-left: 15%;
 }
 nav{
     flex: 1;
@@ -39,7 +40,7 @@ nav{
     border-radius: 3px;
 }
 .menu{
-    padding-left: 100px;
+    padding-left: 10%;
     display: flex;
     justify-content: center;
 }
@@ -63,17 +64,17 @@ nav{
     background-color: #1F2937;
     width: 100%;
     padding-left: 0;
-    height: 500px;
-    
+    height: 500px 700px;
+    padding-bottom: 5%;
 }
 .imagediv{
     margin-top: 70px;
     padding-top: 70px;
-    padding-left: 130px;
+    padding-left: 10%;
     
 }
 .article1{
-   padding-left: 250px;
+   padding-left: 15%;
 }
 .headline1{
     padding-top: 150px;
@@ -81,7 +82,6 @@ nav{
     font-weight: bold;
     color: #F9FAF8;
     font-size: 48px;
-
 }
 .article1 p{
     padding-top: 0%;
@@ -104,12 +104,12 @@ h5{
 }
 .section2 article{
     display: flex;
-    padding-left: 500px;
+    padding-left: 25%;
 }
 .section2 div{
     width: 160px;
     height : 300px;
-    padding-left: 50px;
+    padding-left: 4%;
 }
 .section2 img{
     
@@ -139,10 +139,11 @@ h4{
    
 }
 .section4{
+    text-align: center;
     background-color: #3882f6;
     display: flex;
     width: 800px;
-    margin-left: 550px;
+    margin-left: 28%;
     height: 120px;
     margin-top: 50px;
     margin-bottom: 50px;
